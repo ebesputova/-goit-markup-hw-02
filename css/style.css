@@ -1,0 +1,142 @@
+:root {
+  --main-color: #757575;
+  --highlight-color: #212121;
+  --white-color: #fff;
+  --light-grey: #f5f4fa;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+
+.logo .accent {
+  color: var(--accent-color);
+}
+
+.nav-list a {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--accent-color);
+}
+
+.contacts a {
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+.offer h1 {
+  font-size: 44px;
+  font-weigth: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.offer button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.principles h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.principles p {
+  line-height: 1.7;
+}
+
+.work-scope h2,
+.work-team h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #212121;
+}
+
+.work-team h3 {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #212121;
+}
+
+.work-team p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact-info {
+  font-style: normal;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+
+.contact-info .address {
+  color: var(--white-color);
+}
+
+.projects .filters-elem {
+  color: var(--highlight-color);
+  background-color: var(--light-grey);
+}
+
+.projects .filters-elem:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.projects-list h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--highlight-color);
+}
+
+.projects-list p {
+  font-size: 16px;
+  line-height: 1.9;
+}
